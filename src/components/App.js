@@ -2,7 +2,7 @@ import React  from 'react'
 import { useState } from 'react';
 import '../styles/App.css';
 const App = () => {
-  const [text , setText] = useState("Marco");
+  const [text , setText] = useState(true);
   const handleClick = () => {
     setText(!text);
   }
